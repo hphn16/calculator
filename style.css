@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.navi {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-button {
+    flex-basis: 10%;
+    margin-bottom: 5px;
+}
+
+.container {
+    background-color: #e7e9eb;
+    border: solid 1px #fff;
+    flex-basis: 25em;
+    height: 33em;
+    padding: 1.5em 1.8em;
+}
+
+.screen {
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: right;
+    padding: 20px;
+    overflow: auto;
+    width: 350px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 0;
+}
+
+.n-button {
+    flex-basis: 20%;
+    font-size: 18px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid #dbdcdd;
+}
+
+.n-button:last-child {
+
+}
+
+.n-button:last-child:hover {
+
+}
+
+.n-button:hover {
+
+}
+
+.n-button:active {
+
+}
+
+.wide {
+    flex-basis: 46%;
+}
