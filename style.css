@@ -27,18 +27,17 @@ body {
 
 .nav-button {
     flex-basis: 10%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border: 1px solid #dbdcdd;
-    border-radius: 5px;
+    border-radius: 15px;
+    text-align: center;
 }
 
 .container {
     background-color: #e7e9eb;
     border-radius: 10px;
     border: solid 1px #fff;
-    flex-basis: 25em;
-    height: 33em;
+    width: 350px;
 }
 
 .screen {
@@ -47,7 +46,11 @@ body {
     text-align: right;
     padding: 25px;
     overflow: auto;
-    width: 400px;
+    width: 349px;
+}
+
+.calcbuttons {
+    margin-top: 35px;
 }
 
 .button-row {
