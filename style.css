@@ -57,8 +57,9 @@ body {
 
 .buttons button:hover {
     transform: scale(1.05);
+    border: solid 1px #999898;
 }
 
 .buttons button:active {
-    transform: scale(0.99);
+    transform: scale(0.96);
 }
