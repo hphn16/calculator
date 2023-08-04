@@ -19,20 +19,6 @@ body {
     background-color: #1f2937;
 }
 
-.navi {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 5px;
-}
-
-.nav-button {
-    flex-basis: 10%;
-    margin-bottom: 10px;
-    border: 1px solid #dbdcdd;
-    border-radius: 15px;
-    text-align: center;
-}
-
 .container {
     background-color: #e7e9eb;
     border-radius: 10px;
@@ -40,49 +26,39 @@ body {
     width: 350px;
 }
 
-.screen {
-    background-color: #fff;
-    font-size: 30px;
+.display {
+    height: 135px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    background-color: #e7e9eb;
+    font-size: 36px;
     text-align: right;
-    padding: 25px;
-    overflow: auto;
-    width: 349px;
 }
 
-.calcbuttons {
-    margin-top: 35px;
-}
-
-.button-row {
+.buttons {
     display: flex;
     justify-content: space-between;
     margin-top: 0.2%;
 }
 
-.n-button {
+.buttons button {
     flex-basis: 25%;
     font-size: 24px;
-    height: 81px;
+    height: 80px;
     border-radius: 10px;
     border: 1px solid #dbdcdd;
+    cursor: pointer;
 }
 
-.n-button:last-child {
-
-}
-
-.n-button:last-child:hover {
-
-}
-
-.n-button:hover {
-
-}
-
-.n-button:active {
-
-}
-
-.wide {
+.buttons .wide {
     flex-basis: 50%;
+}
+
+.buttons button:hover {
+    transform: scale(1.05);
+}
+
+.buttons button:active {
+    transform: scale(0.99);
 }
