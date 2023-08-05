@@ -21,42 +21,50 @@ body {
 
 .container {
     background-color: #e7e9eb;
-    border-radius: 10px;
     border: solid 1px #fff;
-    width: 350px;
+    width: 400px;
+    border-radius: 5px;
 }
 
 .display {
-    height: 135px;
-    border-radius: 10px;
+    padding-right: 15px;
+    height: 150px;
+    border-radius: 15px;
     width: 100%;
     border: none;
     background-color: #e7e9eb;
-    font-size: 36px;
+    font-size: 50px;
+    font-weight: 500;
     text-align: right;
+    cursor: default;
 }
 
 .buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: 0.2%;
+    padding: 1px 3px 1px;
 }
 
 .buttons button {
     flex-basis: 25%;
     font-size: 24px;
     height: 80px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid #dbdcdd;
-    cursor: pointer;
+    margin: 1px;
 }
 
 .buttons .wide {
     flex-basis: 50%;
 }
 
+.buttons .equal {
+    background-color: #3bb0c0;
+    color: #fff;
+}
+
 .buttons button:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
     border: solid 1px #999898;
 }
 
